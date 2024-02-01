@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    
+   
+}
+.text-title{
+    font-weight: 700;
+    line-height: 1.2;
+}
+h1{
+    font-size: 55px;
+}
+#btn1{
+    background-color: #948cf2;
+}
+
+
+.qr_code {
+        border: 0px solid #999;
+        box-shadow: 0px 0px 0px;
+    }
+.flex-container {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
+.flex-item {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"] {
+    width: 80%; /* Full width */
+    padding: 12px 20px; /* Some padding */ 
+    margin: 8px 0; /* Some margin */ 
+    box-sizing: border-box ; /* Make sure padding and width stays in the box */
+    border: 2px solid #aaa; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    background-color: white; /* Light grey background */
+}
+input[type="email"] {
+    width: 80%; /* Full width */
+    padding: 12px 20px; /* Some padding */ 
+    margin: 8px 0; /* Some margin */ 
+    box-sizing: border-box ; /* Make sure padding and width stays in the box */
+    border: 2px solid #aaa; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    background-color: white; /* Light grey background */
+}
+input[type="message"] {
+    width: 80%; /* Full width */
+    padding: 12px 20px; /* Some padding */ 
+    margin: 8px 0; /* Some margin */ 
+    box-sizing: border-box ; /* Make sure padding and width stays in the box */
+    border: 2px solid #aaa; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    background-color: white; /* Light grey background */
+}
+.flex-item:first-child {
+    flex: 7; /* 70% of the width */
+}
+.flex-item:last-child {
+    flex: 3; /* 30% of the width */
+}
+#tle{
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.btn {
+    background-color: #9b27af;
+    color: white; /* Sets the text color to white */
+    border: none; /* Removes the default button border */
+    padding: 10px 20px; /* Adds some padding */
+    text-align: center; /* Centers the text */
+    text-decoration: none; /* Removes the default underline */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Changes the cursor when you hover over the button */
+    transition-duration: 0.4s; /* Adds a transition effect */
+}
+
+.btn:hover {
+    background-color: darkviolet; /* Changes the background color when you hover over the button */
+    color: white;
+}
+#log a {
+    background-color: #9b27af;
+    color: white; /* Change the text color to white */
+    padding: 10px 20px; /* Adds some padding */
+    text-decoration: none; /* Removes the default underline */
+}
+#log a:hover,
+#log a:focus,
+#log a:active {
+    background-color: darkviolet;
+    color: white;
+}
+.btn-success {
+    background-color: #9b27af !important;
+    border-color:#9b27af !important;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+    background-color: darkviolet !important;
+    border-color: darkviolet !important;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Optional: Adds space between the buttons */
+    flex-wrap: wrap; /* Optional: Allows the buttons to wrap onto the next line if there isn't enough space */
+}
+.custom-btn {
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+        border-radius: var(--bs-border-radius)!important;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.custom-btn:hover {
+    background-color: #9b27af;
+    color: white;
+}
